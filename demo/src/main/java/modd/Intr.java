@@ -30,7 +30,6 @@ public class Intr extends JFrame {
         setSize(800, 800);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Dfs.search(maze, 1, 1, path);
-        System.out.println(path);
     }
 
     @Override
